@@ -42,7 +42,7 @@ endif
 nmap <silent> <F6> :set invpaste<CR>
 
 " 切换行号
-nmap <silent> <F5> :set invnu<CR>
+" nmap <silent> <F5> :set invnu<CR>
 
 " 目录中查找内容
 nmap <F3> :call handy#SearchWord()<CR>

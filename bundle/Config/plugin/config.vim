@@ -23,6 +23,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+" 显示行号
+set number
+
 " 高亮括号对
 set showmatch
 " 自动缩进
