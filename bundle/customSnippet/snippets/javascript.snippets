@@ -1,0 +1,14 @@
+snippet def
+	define(function(require, exports) {
+		${1}
+	});
+snippet req
+	var ${1:} = require('${2}');
+snippet for for length
+	for (var i=0, l=${1:SomeThing}.length; i<l; i++) {
+		var ${2:item} = $1[i];${3}
+	}
+snippet hr
+	/* -------------------- ${1} ----------------------- */
+snippet l
+	console.log(${1});
