@@ -14,6 +14,11 @@
 
     $ git submodule foreach "git checkout master && git pull"
 
+## Remove plugin
+
+    $ rm -rf bundle/vim-markdown
+    $ git rm -r bundle/vim-markdown
+
 ## Install new plugins
 
 在 <code>vimfiles</code> 目录下执行
