@@ -25,6 +25,8 @@ set expandtab
 
 " 显示行号
 set number
+" 设置*.ftl file type.
+au BufRead,BufNewFile *.ftl set filetype=xml
 
 " 高亮括号对
 set showmatch
