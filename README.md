@@ -1,15 +1,25 @@
 # Vim configuration&plugin
 ---
+## Installation
+    
+    $ git clone git@github.com:tim-tang/vimfiles.git ~/.vim
+    $ cd ~/.vim && ./install.sh
+
 ## General update
 
-    $ cd $WORK_PATH/vimfiles/
+    $ cd ~/.vim
     $ git pull
 
 ## Update plugins
 
     $ git submodule foreach "git checkout master && git pull"
 
-### Install new plugins
+## Remove plugin
+
+    $ rm -rf bundle/vim-markdown
+    $ git rm -r bundle/vim-markdown
+
+## Install new plugins
 
 在 <code>vimfiles</code> 目录下执行
 
