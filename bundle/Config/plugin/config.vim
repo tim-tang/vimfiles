@@ -26,7 +26,8 @@ set expandtab
 " 显示行号
 set number
 " 设置*.ftl file type.
-au BufRead,BufNewFile *.ftl set filetype=xml
+au BufRead,BufNewFile *.ftl set filetype=html
+
 " 设置*.json file type.
 au BufRead,BufNewFile *.json setf json
 
