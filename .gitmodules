@@ -64,3 +64,12 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/jsruntime"]
+	path = bundle/jsruntime
+	url = git://github.com/michalliu/jsruntime.vim.git
+[submodule "bundle/jsoncodecs"]
+	path = bundle/jsoncodecs
+	url = git://github.com/michalliu/jsoncodecs.vim.git
+[submodule "bundle/sourcebeautify"]
+	path = bundle/sourcebeautify
+	url = git://github.com/michalliu/sourcebeautify.vim.git
