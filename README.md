@@ -84,12 +84,10 @@
     * 设置了过滤 pyc 文件
 * fencview 增强 vim 的编码检测 -> FencAutoDetect:自动识别文件编码 FencView:打开一个编码列表窗口，用户选择编码reload文件
 * snipmate 代码补全
-* jslint js 语法校验
 * tagbar js 代码大纲视图
 * Gist 分享代码到 github 的小工具
 * vim-repeat 增强 vim 的 repeat 功能
 * web-indent JavaScript 的语法缩进
-* jsbeautify JavaScript 代码格式化，快捷键是 <code>&lt;Leader&gt;ff</code>
 * Scrath 打开一个临时的缓冲区随便记录东西，快捷键是 <code>&lt;Leader&gt;S</code>
 * genutils 给 vim 添加一些函数库
 * vim-fugitive 增加一些 git 命令支持
@@ -98,3 +96,4 @@
 * vim-markdown 高亮 markdown 格式
 * vim-lesscss 高亮 lesscss 格式
 * vim-css3 高亮 css3 中的属性
+* sourcebeautify 格式化html/css/javascript/JSON  快捷键 <code>&lt; Leader&gt;sb</code>

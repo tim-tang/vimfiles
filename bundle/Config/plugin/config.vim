@@ -25,6 +25,14 @@ set expandtab
 
 " 显示行号
 set number
+" 设置*.ftl file type.
+au BufRead,BufNewFile *.ftl set filetype=html
+
+" 设置*.json file type.
+au BufRead,BufNewFile *.json setf json
+
+" Format *.xml files by sending them to xmllint
+au FileType xml exe ":silent 1,$!xmllint --format --recover - 2>/dev/null"
 
 " 高亮括号对
 set showmatch
