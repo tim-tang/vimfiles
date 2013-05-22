@@ -73,7 +73,7 @@
 * CtrlP
     * 强大的文件查找工具，主要快捷键映射有
     * <code>&lt;Ctrl&gt;-p</code> 搜索 Buffer/文件/最近使用的文件 (Mixed 模式)
-    * <code>g&lt;Ctrl&gt;-j</code> 搜索 Tag
+    * <code>g&lt;Ctrl&gt;-j/g&lt;Ctrl&gt;-k</code> 搜索 Tag
 * nerdcommenter 快速给代码加注释 ,具体用法参考：-> <https://github.com/scrooloose/nerdcommenter>
 * vim-surround 修改一段代码周围的引号、括号等
 * CmdlineComplete 给命令行提供补全功能
