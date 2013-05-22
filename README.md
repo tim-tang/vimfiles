@@ -74,7 +74,7 @@
     * 强大的文件查找工具，主要快捷键映射有
     * <code>&lt;Ctrl&gt;-p</code> 搜索 Buffer/文件/最近使用的文件 (Mixed 模式)
     * <code>g&lt;Ctrl&gt;-j</code> 搜索 Tag
-* nerdcommenter 快速给代码加注释
+* nerdcommenter 快速给代码加注释 ,具体用法参考：-> <https://github.com/scrooloose/nerdcommenter>
 * vim-surround 修改一段代码周围的引号、括号等
 * CmdlineComplete 给命令行提供补全功能
 * bufexplorer 提供 Buffer 列表
@@ -82,7 +82,7 @@
     * 快捷键是 <code>&lt;Ctrl&gt;-k</code>
 * nerdtree 查看目录树
     * 设置了过滤 pyc 文件
-* fencview 增强 vim 的编码检测
+* fencview 增强 vim 的编码检测 -> FencAutoDetect:自动识别文件编码 FencView:打开一个编码列表窗口，用户选择编码reload文件
 * snipmate 代码补全
 * jslint js 语法校验
 * tagbar js 代码大纲视图
