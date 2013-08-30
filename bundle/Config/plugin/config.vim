@@ -1,7 +1,14 @@
 " 色彩主题
-colo molokai
 if $TERM == "xterm-256color"
     set t_Co=256 " 256 色
+endif
+
+" color scheme for vimdiff
+if &diff
+   set background=dark
+   colorscheme peaksea
+else
+  colorscheme molokai
 endif
 
 " 关闭兼容模式
