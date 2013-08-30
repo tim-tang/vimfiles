@@ -5,8 +5,9 @@ endif
 
 " color scheme for vimdiff
 if &diff
-   set background=dark
-   colorscheme peaksea
+   "set background=dark
+   "colorscheme peaksea
+   colorscheme diffcolor
 else
   colorscheme molokai
 endif
