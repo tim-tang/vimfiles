@@ -3,6 +3,11 @@ if $TERM == "xterm-256color"
     set t_Co=256 " 256 色
 endif
 
+" past toggle
+noremap <F2> :set invpaste paste?<CR>
+imap <F2> <C-O>:set invpaste paste?<CR>
+set pastetoggle=<F2>
+
 " color scheme for vimdiff
 if &diff
    "set background=dark
