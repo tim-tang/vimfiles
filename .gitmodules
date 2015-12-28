@@ -88,3 +88,6 @@
 [submodule "bundle/vim-erlang-runtime"]
 	path = bundle/vim-erlang-runtime
 	url = https://github.com/vim-erlang/vim-erlang-runtime.git
+[submodule "bundle/vim-erlang-skeleteons"]
+	path = bundle/vim-erlang-skeleteons
+	url = https://github.com/vim-scripts/vim-erlang-skeleteons.git
