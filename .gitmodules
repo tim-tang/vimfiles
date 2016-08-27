@@ -28,15 +28,9 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = git://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
-[submodule "bundle/Gist"]
-	path = bundle/Gist
-	url = git://github.com/vim-scripts/Gist.vim.git
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = git://github.com/tomasr/molokai.git
@@ -91,3 +85,9 @@
 [submodule "bundle/vim-erlang-skeleteons"]
 	path = bundle/vim-erlang-skeleteons
 	url = https://github.com/vim-scripts/vim-erlang-skeleteons.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git@github.com:mattn/gist-vim.git
+[submodule "bundle/webapi-vim"]
+	path = bundle/webapi-vim
+	url = git@github.com:mattn/webapi-vim.git
