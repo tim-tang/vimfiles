@@ -8,6 +8,9 @@ noremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
 
+
+"let g:molokai_original = 1
+let g:rehash256 = 1
 " color scheme for vimdiff
 if &diff
    "set background=dark
